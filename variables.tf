@@ -2,17 +2,19 @@ variable "aws_region" {
   description = "AWS region where resources will be created"
   type        = string
 }
+
 variable "project_name" {
   description = "Project name used for resource naming"
   type        = string
 }
 
-variable "my_ip" {
-  description = "Allowed IP CIDR for SSH access"
+variable "environment" {
+  description = "Environment name such as dev or prod"
   type        = string
 }
 
-variable "environment" {
-  description = "Environment name"
+variable "my_ip" {
+  description = "Allowed CIDR for SSH access"
   type        = string
 }
+
