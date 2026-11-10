@@ -1,6 +1,6 @@
-variable "aws" { 
-description = "AWS region where resources will be created"
-type = string
+variable "aws" {
+  description = "AWS region where resources will be created"
+  type        = string
 }
 variable "project_name" {
   description = "Project name used for resource naming"
